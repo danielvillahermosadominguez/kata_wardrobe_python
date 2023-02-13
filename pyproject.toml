@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "kata-wardrobe"
+version = "1"
+description = "Kata of Wardrobe configuration"
+authors = ["Your Name <you@example.com>"]
+license = "n"
+readme = "README.md"
+packages = [{include = "kata_wardrobe"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
