@@ -4,11 +4,17 @@ class FurnitureDealer:
         self.__size = size
 
     def calculate(self):
+        options = [50, 75, 100]
+        result = []
+        for option in options:
+            rest = self.__size
+            result_by_option = []
+            while rest >= option:
+                if rest >= option:
+                    rest = rest - option
+                    result_by_option.append(option)
 
-        if self.__size == 50:
-            return [[50]]
-        elif self.__size == 100:
-            return [[50, 50], [100]]
-        else:
-            return []
+            if len(result_by_option) != 0:
+                result.append(result_by_option)
 
+        return result

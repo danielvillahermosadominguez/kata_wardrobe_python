@@ -27,3 +27,12 @@ Lo último que hemos hecho es definir que el usuario tiene un tamaño de armario
 No nos han funcionado las clases de test. Investigar.
 Nos esta dando muchos problemas la configuración del entorno.
 
+21-02-2023
+Hemos usado parametrización en tests y hemos refactorizado
+Hemos refactorizado la clase con un while - for y ahora siguientes pasos:
+- Meter mas tests 
+  - COn las opciones opciones que tenemos, meter casos intermedios: 3, 56, 78
+  - Seguir metiendo mas casos -> intentar llegar a lo que dice la kata.
+  - Tratar de aplicar calistenia
+  - Refactorizacion con patron de diseño
+
