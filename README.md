@@ -36,3 +36,16 @@ Hemos refactorizado la clase con un while - for y ahora siguientes pasos:
   - Tratar de aplicar calistenia
   - Refactorizacion con patron de diseño
 
+- Posibles reglas a evaluar:
+  - ¿Estamos teniendo en cuenta combinación de opciones? Por ejemplo 125 = [[50,50], [75], [50,75]]
+
+27-02-2023
+- Meter mas tests
+  - aplicar tail recursion
+  - Seguir metiendo mas casos -> intentar llegar a lo que dice la kata.
+    - ¿Estamos teniendo en cuenta combinación de opciones? Por ejemplo 125 = [[50,50], [75], [50,75]]
+  - Tratar de aplicar calistenia
+  - Refactorizacion con patron de diseño
+
+- Posibles reglas a evaluar:
+  
