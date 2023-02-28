@@ -8,16 +8,17 @@ class FurnitureDealer:
         result = []
         for option in self.__options:
             rest = self.__size
-            result_by_option = self.create_combinations(option, rest)
+            result_by_option = self.create_combinations(option, rest, [])
 
             if len(result_by_option) != 0:
                 result.append(result_by_option)
 
         return result
 
-    def create_combinations(self, option, rest):
+    def create_combinations(self, option, rest, combinations):
         if rest >= option:
             rest = rest - option
-            return [option] + self.create_combinations(option, rest)
+            combinations.append(option)
+            self.create_combinations(option, rest, combinations)
 
-        return []
+        return combinations
