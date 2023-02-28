@@ -48,4 +48,11 @@ Hemos refactorizado la clase con un while - for y ahora siguientes pasos:
   - Refactorizacion con patron de diseño
 
 - Posibles reglas a evaluar:
+
+28-02-2023
+- Estamos en el algoritmo con varias options. Dejamos una primera versión que aun no funciona pero nos da una idea de por donde seguir
+- Posibles casos:Tenemos que filtrar los resultados "iguales"? [75.50] y [50, 75] <= quiza ya no se de este caso
+- Casos como: 175 = [[50,50,50],[75,50,50], [100,50], [120,50]]
+- Tratar de aplicar calistenia
+- Refactorizacion con patron de diseño
   
