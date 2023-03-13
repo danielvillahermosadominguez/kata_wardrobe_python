@@ -55,4 +55,8 @@ Hemos refactorizado la clase con un while - for y ahora siguientes pasos:
 - Casos como: 175 = [[50,50,50],[75,50,50], [100,50], [120,50]]
 - Tratar de aplicar calistenia
 - Refactorizacion con patron de diseño
-  
+13-03-2023
+  - El caso como: 175 = [[50,50,50],[75,50,50], [100,50], [120,50]] está implementado
+  - Requiere una refactorización
+  - Tratar de aplicar calistenia
+  - Refactorizacion con patron de diseño

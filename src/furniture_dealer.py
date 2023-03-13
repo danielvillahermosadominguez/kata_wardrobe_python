@@ -19,7 +19,6 @@ class FurnitureDealer:
 
         return result
 
-    #idea inicial
     def create_combinations(self, index, rest, combinations):
         option = self.__options[index]
         previousOption = self.__options[index-1]
@@ -32,5 +31,7 @@ class FurnitureDealer:
             rest = rest - previousOption
             combinations.append(previousOption)
             self.create_combinations(index-1, rest, combinations)
+        elif rest > 0 and index > 0:
+            self.create_combinations(index - 1, rest, combinations)
 
         return combinations
