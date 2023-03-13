@@ -1,5 +1,3 @@
-import numpy as np
-
 class FurnitureDealer:
 
     def __init__(self, size: int):
